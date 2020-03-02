@@ -44,6 +44,26 @@ Ogni modulo ha i suoi componenti e talvolta i suoi servizi, eccetto il modulo co
 -user : modulo che contiene i componenti e i servizi per il Google login o E-mail login
 
 
+NOTE : 
+
+Ogni Nota è una "Board" avente N "Tasks" ed è composta dai seguenti campi :
+
+Board {
+
+  id?: string;         //Chiave prim.
+  title?: string;      //Titolo
+  tasks?: Task[];      // Elenco dei tasks ( nell' app un Array)
+  
+}
+
+Una Task ha il campo:
+
+Task {
+
+  description?: string; //Descrizione
+  
+}
+
 
 
 
