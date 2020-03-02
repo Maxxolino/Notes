@@ -1,0 +1,30 @@
+.outer-card {
+    margin: 10px;
+    min-width: 300px;
+    max-width: 300px;
+    padding: 10px;
+    background:rgb(170, 170, 170);
+    /*margin-27px*/
+  }
+  
+  .inner-card {
+      margin: 5px 0;
+      cursor: pointer;
+      //cursor: copy;
+  }
+
+  .cdk-drag-animating {
+    transition: transform 300ms ease;
+  }
+  
+  .tasks.cdk-drop-list-dragging .cdk-drag {
+    transition: transform 300ms ease;
+  }
+
+.cdk-drag-placeholder {
+  opacity: 0.5;
+}
+
+.purple { background: #ff4081; }
+
+.gray { background: gray; text-decoration: line-through; }

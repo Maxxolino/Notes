@@ -1,0 +1,29 @@
+
+
+// prebuilt theme
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+
+
+/* You can add global styles to this file, and also import other style files */
+
+
+html, body { height: 100%; }
+
+body { margin: 0; font-family: sofia-pro, sans-serif; }
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/*dove sono le styles delle mat
+we will discover it only by living. */
+
+.mat-snack-bar-container{background-color: white;
+    color: black;}
+    
+.mat-simple-snackbar{
+    
+    background-color: inherit;
+    color: inherit;
+}

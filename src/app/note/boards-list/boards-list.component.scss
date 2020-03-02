@@ -1,0 +1,44 @@
+.boards {
+  width: auto;
+  padding: 20px;
+  display: flex;
+  overflow-x: auto;
+
+  
+  .handle {
+    position: relative;
+    top: 5px;
+    left: 0;
+
+    cursor: move;
+  }
+}
+
+
+.cdk-drag-placeholder {
+  opacity: 0.2;
+  width: 350px;
+  
+  margin: 0 10px;
+  
+}
+
+.cdk-drag-animating {
+  transition: transform 300ms ease;
+}
+
+.boards.cdk-drop-list-dragging .cdk-drag {
+  transition: transform 300ms ease;
+}
+
+
+.board-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px gray solid;
+  width: 300px;
+  padding: 32px;
+  height: 300px;
+}

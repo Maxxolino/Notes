@@ -1,0 +1,26 @@
+
+
+
+<header>
+    
+    <div class="" *ngIf="afAuth.authState | async as user"> 
+        <img class="avatar" src="{{user.photoURL}}" width="auto">  
+    </div>
+    <h1 class="normal">Welcome</h1>
+
+    <h1 *ngIf="afAuth.authState | async as user">
+
+        <strong>{{ user.displayName }}</strong>
+
+    </h1>
+        
+   
+
+    <p>
+        <a mat-raised-button routerLink="/note">Go to Notes!</a>
+    </p>
+
+
+</header>
+
+
