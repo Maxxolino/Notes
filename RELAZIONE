@@ -14,12 +14,12 @@ Per la creazione di Sticky Notes, sono stati utilizzati i seguenti framework :
 
 FRONTEND :
 
-Angular( https://angular.io/start ),NodeJs( https://nodejs.org/it/about )
+Angular( https://angular.io/start )
 
 
 BACKEND : 
 
-Firebase e Firestone ( https://firebase.google.com ),NodeJs( https://nodejs.org/it/about )
+NodeJs( https://nodejs.org/it/about ), Firebase e Firestone ( https://firebase.google.com )
 
 
 Per il design dell' App è stato utilizzato:
