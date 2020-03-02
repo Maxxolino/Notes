@@ -29,12 +29,13 @@ Per il design dell' App è stato utilizzato:
 alcune personalizzazioni eseguite nei css dei singoli moduli.
 
 
-L'applicazione è suddivisa in diversi moduli e utilizza il routing
+L'applicazione è suddivisa in diversi "Feature Modules" e quindi utilizza il routing con il  "Lazy Loading"
 
     >app-module
--note
--shared
--user
+    
+-note   // Feat. Module
+-shared // Feat. Module
+-user   // Feat. Module
 
 Ogni modulo ha i suoi componenti e talvolta i suoi servizi, eccetto il modulo condiviso "shared" che ha componenti utili anche ad altri moduli
 
