@@ -5,7 +5,7 @@ Eseguire <ng serve> per avviare il server locale,seguire le indicazioni per visu
 
                                                                 Sticky Notes
                                                                 
-                     Sticky Notes è una Web App che permette di creare delle note suddivise in 'tasks' riordinabili. 
+                Sticky Notes è una Single Page App. che permette di creare delle note suddivise in 'tasks' riordinabili. 
                 Le Notes oltre che in locale verranno memorizzate online in un database, cosi da portarle sempre con te!
                 
                 
@@ -27,6 +27,23 @@ Per il design dell' App è stato utilizzato:
 "Angular Material" ( https://material.angular.io ) 
 
 alcune personalizzazioni eseguite nei css dei singoli moduli.
+
+
+L'applicazione è suddivisa in diversi moduli e utilizza il routing
+
+    >app-module
+-note
+-shared
+-user
+
+Ogni modulo ha i suoi componenti e talvolta i suoi servizi, eccetto il modulo condiviso "shared" che ha componenti utili anche ad altri moduli
+
+
+-note : modulo che contiene i componenti e i servizi dediti a  visualizzare, creare e modificare le note
+-shared : modulo che contiene componenti condivisi come la navbar e i bottoni
+-user : modulo che contiene i componenti e i servizi per il Google login o E-mail login
+
+
 
 
 
