@@ -32,7 +32,7 @@ export class BoardService {
     return this.db.collection('boards').add({
       ...data,
       uid: user.uid,
-      tasks: [{description: 'It Works!', label : 'purple'}]
+      tasks: [{description: 'prova', label : 'purple'}]
     });
   }
 
