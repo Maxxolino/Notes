@@ -1,4 +1,4 @@
-Requisiti: NodeJs, Npm
+
 
 Eseguire <npm -install> per installare tutte le dipendenze
 Eseguire <ng serve> per avviare il server locale,seguire le indicazioni per visualizzare l'app all'indirizzo che verrà indicato
