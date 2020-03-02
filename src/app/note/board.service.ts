@@ -24,9 +24,7 @@ export interface Task {
 export class BoardService {
   constructor(private afAuth: AngularFireAuth, private db: AngularFirestore) {}
 
-  /**
-   * Creates a new board for the current user
-   */
+
   async createBoard(data: Board) {
     const user = await this.afAuth.auth.currentUser;
     return this.db.collection('boards').add({
@@ -36,9 +34,8 @@ export class BoardService {
     });
   }
 
-  /**
-   * Get all boards owned by current user
-   */
+ 
+  
   getUserBoards() {
     return this.afAuth.authState.pipe(
         switchMap(user => {
@@ -65,9 +62,7 @@ export class BoardService {
       .delete();
   }
 
-  /*
-   Updates the tasks on board
-   */
+
   updateTasks(boardId: string, tasks: Task[]) {
     return this.db
       .collection('boards')
