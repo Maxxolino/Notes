@@ -3,3 +3,31 @@ Requisiti: NodeJs, Npm
 Eseguire <npm -install> per installare tutte le dipendenze
 Eseguire <ng serve> per avviare il server locale,seguire le indicazioni per visualizzare l'app all'indirizzo che verrà indicato
 
+                                                                Sticky Notes
+                                                                
+                     Sticky Notes è una Web App che permette di creare delle note suddivise in 'tasks' riordinabili. 
+                Le Notes oltre che in locale verranno memorizzate online in un database, cosi da portarle sempre con te!
+                
+                
+                
+Per la creazione di Sticky Notes, sono stati utilizzati i seguenti framework : 
+
+FRONTEND :
+
+Angular( https://angular.io/start ),NodeJs( https://nodejs.org/it/about )
+
+
+BACKEND : 
+
+Firebase e Firestone ( https://firebase.google.com ),NodeJs( https://nodejs.org/it/about )
+
+
+Per il design dell' App è stato utilizzato:
+
+"Angular Material" ( https://material.angular.io ) 
+
+alcune personalizzazioni eseguite nei css dei singoli moduli.
+
+
+
+
