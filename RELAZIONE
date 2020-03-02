@@ -53,7 +53,7 @@ Board {
 
   id?: string;         //Chiave prim.
   title?: string;      //Titolo
-  tasks?: Task[];      // Elenco dei tasks ( nell' app un Array)
+  tasks?: Task[];      // Elenco dei tasks (Array)
   
 }
 
